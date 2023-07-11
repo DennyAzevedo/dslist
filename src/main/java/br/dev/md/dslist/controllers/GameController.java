@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/*import br.dev.md.dslist.dto.GameMinDTO;
+import br.dev.md.dslist.dto.GameMinDTO;
 import br.dev.md.dslist.services.GameService;
-*/
+
 @RestController
 @RequestMapping(value = "/games")
 public class GameController {
-/*
+
 	@Autowired
 	private GameService gameService;	
 	
@@ -21,6 +21,6 @@ public class GameController {
 	public List<GameMinDTO> findAll() {
 		List<GameMinDTO> result = gameService.findAll();
 		return result;
-	}*/
+	}
 }
 
